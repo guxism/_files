@@ -15,9 +15,8 @@ WORKDIR /home/ctng
 
 RUN wget http://crosstool-ng.org/download/crosstool-ng/crosstool-ng-1.23.0.tar.xz && tar xvf crosstool-ng-1.23.0.tar.xz
 
-WORKDIR /home/ctng/crosstool-ng
-RUN git show --summary && \
-    ./bootstrap && \
+WORKDIR /home/ctng/crosstool-ng-1.23.0
+RUN ./bootstrap && \
     ./configure --prefix=/home/ctng/.local && \
     make && \
     make install
