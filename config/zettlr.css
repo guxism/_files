@@ -1,0 +1,20 @@
+body #editor .CodeMirror {
+font-family: "Ubuntu", "Clear Sans", "Helvetica Neue", sans-serif;
+}
+
+
+body #editor .CodeMirror .cm-fenced-code, body .quicklook .body .CodeMirror .cm-fenced-code, body .dialog .CodeMirror .cm-fenced-code, body #editor .CodeMirror .cm-stex-mode, body .quicklook .body .CodeMirror .cm-stex-mode, body .dialog .CodeMirror .cm-stex-mode {
+    font-family: 'monofur for powerline', monospace;
+    font-size: smaller;
+}
+
+body.dark #editor .CodeMirror .cm-quote, body.dark .quicklook .body .CodeMirror .cm-quote, body.dark .dialog .CodeMirror .cm-quote, body.dark #editor .CodeMirror .cm-link, body.dark .quicklook .body .CodeMirror .cm-link, body.dark .dialog .CodeMirror .cm-link, body.dark #editor .CodeMirror .cm-strong, body.dark .quicklook .body .CodeMirror .cm-strong, body.dark .dialog .CodeMirror .cm-strong, body.dark #editor .CodeMirror .cm-em, body.dark .quicklook .body .CodeMirror .cm-em, body.dark .dialog .CodeMirror .cm-em {
+    color: #FFFF00;
+}
+
+body #editor .CodeMirror .cm-comment:not(.cm-formatting):not(.cm-fenced-code) {
+    /* background-color: #bb1d1d; */
+  font-family: 'monofur for powerline', monospace;
+    font-size: smaller;
+}
+
